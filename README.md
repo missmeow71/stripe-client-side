@@ -2,4 +2,4 @@
 investigators-drill-2
 
 
-client side 
+client side https://investigators-stripe.firebaseapp.com
