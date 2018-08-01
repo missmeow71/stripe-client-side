@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>galvanize</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Pay Your Bill</h2>
+    </section>
+    <!-- Add payment form here -->
+    <form id="customForm">
+      <div>
+        <label for="amount">Choose payment amount (You owe $387)</label>
+      </div>
+      <div>
+        <input type="number" name="amount" id="amount-to-pay" min="0" max="387">
+      </div>
+      <div>
+        <button>Pay</button>
+      </div>
+    </form>
+    <div id="paid-status"></div>
+  </main>
+  <!-- Add stripe client side library here -->
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
